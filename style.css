@@ -5,11 +5,11 @@ body {
 .jumbotron {
     /*background: url("img/hero.jpg") no-repeat center;*/
     background-position: center;
-    background-image: url("img/hero.jpg");
+    background-image: url("img/hero-blur.jpg");
     background-size: cover;
     height: 100vh;
-    opacity: 0.5; /* play around with it and make text exempt from opacity */
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+    /* opacity: 0.5; play around with it and make text exempt from opacity
+    filter: alpha(opacity=50); For IE8 and earlier */
 }
 
 .container-fluid {
@@ -17,8 +17,13 @@ body {
 }
 
 h1 {
-    color: black;
+    color: white;
 } 
+
+p {
+    color: white;
+}
+
 .btn-primary {
     background-color: #c60063;
     border-color: #c60063;
