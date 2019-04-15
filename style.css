@@ -2,37 +2,14 @@ body {
 width: 100%;
 }
 
-.navbar {
-    font-family: 'Nunito Sans', sans-serif;
-}
-
-.nav-link {
-    text-transform: uppercase;
-}
-
-.bg-dark {
-    background-color: transparent !important;
-    transition: 500ms ease;
-}
-
-.bg-dark.scrolled {
-    background-color: black !important;
-}
-
-.jumbotron {
-    background-position: center;
-    background-image: url("img/hero-blur.jpg");
-    background-size: cover;
-    height: 100vh;
-}
-
-.container-fluid {
-    padding-top: 15%;
+html {
+    font-size: 1rem;
 }
 
 h1 {
     color: white;
 } 
+
 h2 {
     color: white;
 }
@@ -50,6 +27,43 @@ p {
     font-family: 'Nunito Sans', sans-serif;
 }
 
+
+/* ---------  NAV BAR --------- */
+
+.navbar {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1rem;
+}
+
+.nav-link {
+    text-transform: uppercase;
+}
+
+.bg-dark {
+    background-color: transparent !important;
+    transition: 500ms ease;
+}
+
+.bg-dark.scrolled {
+    background-color: black !important;
+}
+
+/* -------- HERO SECTION --------- */
+
+.jumbotron {
+    background-position: center;
+    background-image: url("img/hero-blur.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.container-fluid {
+    padding-top: 15%;
+}
+
 .lead {
     color: white;
 }
@@ -61,6 +75,8 @@ p {
 .btn-lg:hover {
     transform: scale(1.1);
 }
+
+/* ------- ABOUT ME --------- */
 
 .bio-img {
     width: 70%;
@@ -75,6 +91,8 @@ p {
     margin-bottom: 15px;
 }
 
+/* -------- SERVICES SECTION ---------- */
+
 .card {
     transition: all 1s;
 }
@@ -86,3 +104,16 @@ p {
 #contact {
     background-color: black;
 }
+  
+@media screen and (min-width: 570px) {
+    .navbar-brand {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 770px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+}
+ 
