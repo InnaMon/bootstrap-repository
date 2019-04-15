@@ -13,7 +13,7 @@ body {
 }
 
 .container-fluid {
-    margin-top: 15%;
+    padding-top: 15%;
 }
 
 h1 {
@@ -25,6 +25,12 @@ h2 {
 
 .lead {
     color: white;
+}
+
+.bio-img {
+    width: 70%;
+    height: 50%;
+    border-radius: 3px;
 }
 
 .btn-primary {
