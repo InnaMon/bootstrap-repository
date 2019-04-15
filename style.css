@@ -8,6 +8,7 @@ html {
 
 h1 {
     color: white;
+    font-size: 0.4rem;
 } 
 
 h2 {
@@ -58,10 +59,11 @@ p {
     background-image: url("img/hero-blur.jpg");
     background-size: cover;
     height: 100vh;
+    padding-top: 70px;
 }
 
 .container-fluid {
-    padding-top: 15%;
+    padding-top: 25%;
 }
 
 .lead {
@@ -107,17 +109,32 @@ p {
 }
   
 @media screen and (min-width: 570px) {
+    .jumbotron {
+        padding-top: 15px;
+    }
+    .display-4 {
+        font-size: 4.5rem;
+    } 
     .navbar-brand {
         font-size: 1rem;
+    }
+    .nav-item {
+        text-align: right;
     }
 }
 
 @media screen and (min-width: 770px) {
+    .jumbotron {
+        padding-top: 0px;
+    }
     .navbar-brand {
         font-size: 1.2rem;
     }
     .bio-img {
-        margin: 50px 0px 0px 0px;
+        margin: 0px;
+    }
+    .container-fluid {
+        padding-top: 15%;
     }
 }
  
