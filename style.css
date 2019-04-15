@@ -2,6 +2,14 @@ body {
     padding-top: 56px;
 }
 
+.navbar {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.nav-link {
+    text-transform: uppercase;
+}
+
 .jumbotron {
     /*background: url("img/hero.jpg") no-repeat center;*/
     background-position: center;
@@ -23,8 +31,28 @@ h2 {
     color: white;
 }
 
+h3 {
+    text-transform: uppercase;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h4 {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+}
 .lead {
     color: white;
+}
+
+.btn-lg {
+    transition: all 1s;
+}
+
+.btn-lg:hover {
+    transform: scale(1.1);
 }
 
 .bio-img {
@@ -33,15 +61,17 @@ h2 {
     border-radius: 3px;
 }
 
-.btn-primary {
-    background-color: #c60063;
-    border-color: #c60063;
+.bio-header {
+    border-bottom: solid 2px #28a745;
+    margin-bottom: 15px;
 }
 
-.btn-secondary {
-    background-color: transparent;
-    border-color: #c60063;
-    color: #c60063;
+.card {
+    transition: all 1s;
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 #contact {
