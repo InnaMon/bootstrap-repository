@@ -107,6 +107,10 @@ p {
 #contact {
     background-color: black;
 }
+
+/* .btn {
+    background-color: #ADC639;
+} */
   
 @media screen and (min-width: 570px) {
     .jumbotron {
