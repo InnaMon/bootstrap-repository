@@ -94,6 +94,10 @@ p {
     margin-bottom: 15px;
 }
 
+.bio-paragraphs {
+    line-height: 1.6;
+}
+
 /* -------- SERVICES SECTION ---------- */
 
 .card {
@@ -129,7 +133,7 @@ p {
 
 @media screen and (min-width: 770px) {
     .jumbotron {
-        padding-top: 0px;
+        padding-top: 100px;
     }
     .navbar-brand {
         font-size: 1.2rem;
