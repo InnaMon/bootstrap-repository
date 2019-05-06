@@ -13,7 +13,7 @@ h1 {
 
 h2 {
     color: white;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 h3 {
@@ -121,15 +121,18 @@ p {
     .jumbotron {
         padding-top: 15px;
     }
-    .display-4 {
-        font-size: 4.5rem;
-    } 
     .navbar-brand {
         font-size: 1rem;
     }
     .nav-item {
         text-align: right;
     }
+    .display-3 {
+        font-size: 3rem;
+    }
+    .display-4 {
+        font-size: 3.5rem;
+    } 
 }
 
 @media screen and (min-width: 770px) {
@@ -143,10 +146,10 @@ p {
         margin: 100px 0px 0px 0px;
     }
     .container-fluid {
-        padding-top: 15%;
+        padding-top: 20%;
     }
-    .display-3 {
-        font-size: 3rem;
-    }
+    .display-4 {
+        font-size: 4.5rem;
+    } 
 }
  
