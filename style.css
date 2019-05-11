@@ -44,6 +44,10 @@ p {
     text-transform: uppercase;
 }
 
+.nav-item {
+    padding: 0 10px;
+}
+
 .active {
     text-decoration: underline;
 }
@@ -68,6 +72,13 @@ a:hover {
     transform: scale(1.1);
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255,255,255);
+}
 /* -------- HERO SECTION --------- */
 
 .jumbotron {
