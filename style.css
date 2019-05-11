@@ -40,25 +40,9 @@ p {
     font-size: 1rem;
 }
 
-/* .navbar-custom {
-    color: white;
-}
-
-.navbar-nav {
-    color: white;
-} */
-
 .nav-link {
     text-transform: uppercase;
 }
-
-/* .nav-item {
-    color: white;
-}
-
-.navbar-dark {
-    color: white;
-} */
 
 .active {
     text-decoration: underline;
@@ -76,6 +60,12 @@ p {
 
 a {
     color: white;
+    transition: all 1s;
+}
+
+a:hover {
+    color: white;
+    transform: scale(1.1);
 }
 
 /* -------- HERO SECTION --------- */
