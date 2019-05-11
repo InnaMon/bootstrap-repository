@@ -1,5 +1,3 @@
-console.log("hello");
-
 // Get nav-bar to change from transparent backgrounds upon scrolling past hero image 
 $(window).scroll(function() {
     $('nav').toggleClass('scrolled', $(this).scrollTop() > 680);
