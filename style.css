@@ -108,7 +108,7 @@ a:hover {
 /* ------- ABOUT ME --------- */
 
 .bio {
-    width: 36em;
+    width: 42em;
 }
 
 .bio-img {
@@ -171,7 +171,7 @@ a:hover {
         font-size: 1.2rem;
     }
     .bio-img {
-        margin: 100px 0px 0px 0px;
+        margin: 65px 0px 0px 0px;
     }
     .container-fluid {
         padding-top: 20%;
