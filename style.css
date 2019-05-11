@@ -167,9 +167,6 @@ a:hover {
 }
 
 @media screen and (min-width: 770px) {
-    .jumbotron {
-        padding-top: 100px;
-    }
     .navbar-brand {
         font-size: 1.2rem;
     }
