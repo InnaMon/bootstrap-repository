@@ -40,12 +40,20 @@ p {
     font-size: 1rem;
 }
 
+.navbar-nav {
+    color: white;
+}
+
 .nav-link {
     text-transform: uppercase;
     color: white;
 }
 
 .nav-item {
+    color: white;
+}
+
+.navbar-dark {
     color: white;
 }
 
@@ -90,6 +98,10 @@ p {
 }
 
 /* ------- ABOUT ME --------- */
+
+.bio {
+    width: 36em;
+}
 
 .bio-img {
     width: 90%;
