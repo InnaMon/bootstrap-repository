@@ -109,6 +109,14 @@ a:hover {
     transform: scale(1.1);
 }
 
+/* -------- CAROUSEL SECTION --------- */
+
+.slideshow-img {
+    width: 60%;
+    margin: auto;
+    border-radius: 3px;
+}
+
 /* ------- ABOUT ME --------- */
 
 /* .bio {

@@ -26,3 +26,7 @@ for (let i = 0; i < navItem.length; i++) {
     this.className += " active";
   });
 }
+
+$('.carousel').carousel({
+    interval: 3000
+})
