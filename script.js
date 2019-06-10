@@ -1,6 +1,15 @@
 // Get nav-bar to change from transparent backgrounds upon scrolling past hero image 
+
+const viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+
 $(window).scroll(function() {
-    $('nav').toggleClass('scrolled', $(this).scrollTop() > 680);
+    if (viewportWidth < 570) {
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 540);
+    } else if (viewportWidth < 770) {
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 980);
+    } else {
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 680);
+    }
 });
 
 // Get the container element
