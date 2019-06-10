@@ -90,7 +90,7 @@ a:hover {
     background-image: url("img/hero2.jpg");
     background-size: cover;
     height: 100vh;
-    /* padding-top: 100px; */
+    padding-top: 100px;
 }
 
 .container-fluid {
@@ -140,7 +140,6 @@ a:hover {
 
 .bio-paragraphs {
     line-height: 1.6;
-    margin: auto;
     width: 100%;
 }
 
@@ -160,7 +159,7 @@ a:hover {
   
 @media screen and (min-width: 570px) {
     .jumbotron {
-        padding-top: 15px;
+        padding-top: 110px;
     }
     .navbar-brand {
         font-size: 1rem;
@@ -177,6 +176,9 @@ a:hover {
 }
 
 @media screen and (min-width: 770px) {
+    .jumbotron {
+        padding-top: 15px;
+    }
     .navbar-brand {
         font-size: 1.2rem;
     }
