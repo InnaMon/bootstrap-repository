@@ -108,7 +108,9 @@ a:hover {
 /* ------- ABOUT ME --------- */
 
 .bio {
-    width: 42em;
+    /* width: 42em; */
+    width: 100%;
+    margin: auto;
 }
 
 .bio-img {
@@ -117,9 +119,13 @@ a:hover {
     /* margin: 50px 0px 50px 50px; */
     margin: auto;
     border-radius: 3px;
-    box-shadow: 20px 20px 10px #e6e6e6;
+    box-shadow: 10px 10px 5px #e6e6e6;
     border: solid 1px  #cccccc;
 }
+
+/* .about-me {
+    margin: auto;
+} */
 
 .bio-header {
     border-bottom: solid 2px #28a745;
@@ -128,6 +134,8 @@ a:hover {
 
 .bio-paragraphs {
     line-height: 1.6;
+    margin: auto;
+    width: 100%;
 }
 
 /* -------- SERVICES SECTION ---------- */
