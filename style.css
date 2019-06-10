@@ -86,7 +86,7 @@ a:hover {
     background-image: url("img/hero2.jpg");
     background-size: cover;
     height: 100vh;
-    padding-top: 100px;
+    /* padding-top: 100px; */
 }
 
 .container-fluid {
@@ -110,7 +110,7 @@ a:hover {
 .bio {
     /* width: 42em; */
     width: 100%;
-    margin: auto;
+    /* margin: auto; */
 }
 
 .bio-img {
