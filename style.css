@@ -120,6 +120,7 @@ a:hover {
 .slideshow-carousel {
     width: 80%;
     margin: auto;
+    border-radius: 3px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     /* box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
@@ -128,6 +129,7 @@ a:hover {
     background-color: black;
     color: white;
     margin: auto;
+    border-radius: 3px 3px 0px 0px;
 }
 
 .carousel-item {
