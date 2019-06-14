@@ -202,6 +202,10 @@ a:hover {
 #contact {
     background-color: black;
 }
+
+#accounting-title {
+    margin-bottom: 2.5rem;
+}
   
 @media screen and (min-width: 570px) {
     .jumbotron {
