@@ -214,15 +214,22 @@ a:hover {
 }
 
 /* The Close Button */
-.close {
+.closeOne, .closeTwo {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.closeOne:hover,
+.closeOne:focus {
+color: black;
+text-decoration: none;
+cursor: pointer;
+}
+
+.closeTwo:hover,
+.closeTwo:focus {
 color: black;
 text-decoration: none;
 cursor: pointer;
