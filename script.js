@@ -42,8 +42,9 @@ var btn = document.getElementById("firstBtn");
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal 
-btn.onclick = function() {
+btn.onclick = function(e) {
   modal.style.display = "block";
+  e.preventDefault();
 }
 
 // When the user clicks on <span> (x), close the modal
