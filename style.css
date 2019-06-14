@@ -114,17 +114,14 @@ a:hover {
 /* -------- CAROUSEL SECTION --------- */
 
 .slideshow-carousel {
-    width: 75%;
+    width: 80%;
     margin: auto;
-    /* padding: 2%; */
-    /* border-radius: 3px;
-    border: solid 1px  #cccccc; */
     box-shadow: 5px 5px 5px #e6e6e6;
 }
 
 .slideshow-text {
-    background-color: rgba(0, 0, 0, 0.03);
-    /* border: 1px solid rgba(0, 0, 0, 0.125); */
+    background-color: black;
+    color: white;
     margin: auto;
 }
 
@@ -217,6 +214,9 @@ a:hover {
     }
     .navbar-brand {
         font-size: 1.2rem;
+    }
+    .slideshow-text p {
+        font-size: 1.3rem;
     }
     .bio-img {
         margin: auto
