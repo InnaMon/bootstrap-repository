@@ -113,6 +113,10 @@ a:hover {
 
 /* -------- CAROUSEL SECTION --------- */
 
+#what-we-do {
+    padding-bottom: 50px;
+}
+
 .slideshow-carousel {
     width: 80%;
     margin: auto;
@@ -164,14 +168,13 @@ a:hover {
 
 /* ------- ABOUT ME --------- */
 /* #about-us {
-    background-color: black; ///CHANGE BACKGROUND COLOR TO STAND OUT MORE????
+    background-color: black; ///TO DO: CHANGE BACKGROUND COLOR TO STAND OUT MORE????
     width: 100%;
 } */
 
 .bio-img {
     width: 100%;
     height: 50%;
-    /* margin: 50px 0px 50px 50px; */
     margin: auto;
     border-radius: 3px;
     box-shadow: 5px 5px 5px #e6e6e6;
