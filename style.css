@@ -116,18 +116,20 @@ a:hover {
 .slideshow-carousel {
     width: 75%;
     margin: auto;
-    padding: 2%;
-    border-radius: 3px;
-    border: solid 1px  #cccccc;
-    box-shadow: 5px 5px 5px #e6e6e6;
+    /* padding: 2%; */
     /* border-radius: 3px;
-    border: solid 10px  black; */
+    border: solid 1px  #cccccc; */
+    box-shadow: 5px 5px 5px #e6e6e6;
 }
 
 .slideshow-text {
     background-color: rgba(0, 0, 0, 0.03);
-    border: 1px solid rgba(0, 0, 0, 0.125);
+    /* border: 1px solid rgba(0, 0, 0, 0.125); */
     margin: auto;
+}
+
+.carousel-item {
+    padding: 5%;
 }
 
 .carousel-control-prev, .carousel-control-next {
