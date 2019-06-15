@@ -33,6 +33,7 @@ $('.carousel').carousel({
 
 // FIRST MODAL CODE
 // Get the modal
+
 var firstModal = document.getElementById("firstModal");
 
 // Get the button that opens the modal
@@ -87,3 +88,29 @@ window.onclick = function(event) {
 }
 
 // THIRD MODAL CODE
+// SECOND MODAL CODE
+var thirdModal = document.getElementById("thirdModal");
+
+// Get the button that opens the modal
+var thirdBtn = document.getElementById("thirdBtn");
+
+// Get the <span> element that closes the modal
+var closeThree = document.getElementsByClassName("closeThree")[0];
+
+// When the user clicks on the button, open the modal 
+thirdBtn.onclick = function(e) {
+    thirdModal.style.display = "block";
+  e.preventDefault();
+}
+
+// When the user clicks on <span> (x), close the modal
+closeThree.onclick = function() {
+    thirdModal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == thirdModal) {
+    thirdModal.style.display = "none";
+  }
+}
