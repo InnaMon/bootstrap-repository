@@ -12,13 +12,11 @@ $(window).scroll(function() {
     }
 });
 
-// Get the container element
+//ACTIVATE CURRENT/SELECTED NAV ITEM IN NAV BAR
 const ul = document.getElementById("navbarSupportedContent");
 
-// Get all nav-items inside the container
 const navItem = ul.getElementsByClassName("nav-item");
 
-// Loop through the nav-items and add the active class to the current/clicked item
 for (let i = 0; i < navItem.length; i++) {
     navItem[i].addEventListener("click", function() {
     const current = document.getElementsByClassName("active");
@@ -27,6 +25,8 @@ for (let i = 0; i < navItem.length; i++) {
   });
 }
 
+//CAROUSEL FADE IN INTERVAL
+
 $('.carousel').carousel({
     interval: 3000
 })
@@ -34,24 +34,19 @@ $('.carousel').carousel({
 // FIRST MODAL CODE
 var firstModal = document.getElementById("firstModal");
 
-// Get the button that opens the modal
 var firstBtn = document.getElementById("firstBtn");
 
-// Get the <span> element that closes the modal
 var spanOne = document.getElementsByClassName("closeOne")[0];
 
-// When the user clicks on the button, open the modal 
 firstBtn.onclick = function(e) {
     firstModal.style.display = "block";
   e.preventDefault();
 }
 
-// When the user clicks on <span> (x), close the modal
 spanOne.onclick = function() {
     firstModal.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == firstModal) {
     firstModal.style.display = "none";
@@ -61,24 +56,19 @@ window.onclick = function(event) {
 // SECOND MODAL CODE
 var secondModal = document.getElementById("secondModal");
 
-// Get the button that opens the modal
 var secondBtn = document.getElementById("secondBtn");
 
-// Get the <span> element that closes the modal
 var spanTwo = document.getElementsByClassName("closeTwo")[0];
 
-// When the user clicks on the button, open the modal 
 secondBtn.onclick = function(e) {
     secondModal.style.display = "block";
   e.preventDefault();
 }
 
-// When the user clicks on <span> (x), close the modal
 spanTwo.onclick = function() {
     secondModal.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == secondModal) {
     secondModal.style.display = "none";
@@ -88,24 +78,19 @@ window.onclick = function(event) {
 // THIRD MODAL CODE
 var thirdModal = document.getElementById("thirdModal");
 
-// Get the button that opens the modal
 var thirdBtn = document.getElementById("thirdBtn");
 
-// Get the <span> element that closes the modal
 var spanThree = document.getElementsByClassName("closeThree")[0];
 
-// When the user clicks on the button, open the modal 
 thirdBtn.onclick = function(e) {
     thirdModal.style.display = "block";
   e.preventDefault();
 }
 
-// When the user clicks on <span> (x), close the modal
 spanThree.onclick = function() {
     thirdModal.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == thirdModal) {
     thirdModal.style.display = "none";
