@@ -95,7 +95,7 @@ var thirdModal = document.getElementById("thirdModal");
 var thirdBtn = document.getElementById("thirdBtn");
 
 // Get the <span> element that closes the modal
-var closeThree = document.getElementsByClassName("closeThree")[0];
+var spanThree = document.getElementsByClassName("closeThree")[0];
 
 // When the user clicks on the button, open the modal 
 thirdBtn.onclick = function(e) {
@@ -104,7 +104,7 @@ thirdBtn.onclick = function(e) {
 }
 
 // When the user clicks on <span> (x), close the modal
-closeThree.onclick = function() {
+spanThree.onclick = function() {
     thirdModal.style.display = "none";
 }
 
