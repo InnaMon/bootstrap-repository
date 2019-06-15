@@ -32,8 +32,6 @@ $('.carousel').carousel({
 })
 
 // FIRST MODAL CODE
-// Get the modal
-
 var firstModal = document.getElementById("firstModal");
 
 // Get the button that opens the modal
@@ -88,7 +86,6 @@ window.onclick = function(event) {
 }
 
 // THIRD MODAL CODE
-// SECOND MODAL CODE
 var thirdModal = document.getElementById("thirdModal");
 
 // Get the button that opens the modal
