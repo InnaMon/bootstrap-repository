@@ -47,11 +47,11 @@ spanOne.onclick = function() {
     firstModal.style.display = "none";
 }
 
-window.onclick = function(event) {
-  if (event.target == firstModal) {
-    firstModal.style.display = "none";
-  }
-}
+// window.onclick = function(event) {
+//   if (event.target == firstModal) {
+//     firstModal.style.display = "none";
+//   }
+// }
 
 // SECOND MODAL CODE
 var secondModal = document.getElementById("secondModal");
@@ -69,11 +69,11 @@ spanTwo.onclick = function() {
     secondModal.style.display = "none";
 }
 
-window.onclick = function(event) {
-  if (event.target == secondModal) {
-    secondModal.style.display = "none";
-  }
-}
+// window.onclick = function(event) {
+//   if (event.target == secondModal) {
+//     secondModal.style.display = "none";
+//   }
+// }
 
 // THIRD MODAL CODE
 var thirdModal = document.getElementById("thirdModal");
@@ -91,8 +91,18 @@ spanThree.onclick = function() {
     thirdModal.style.display = "none";
 }
 
+// window.onclick = function(event) {
+//   if (event.target == thirdModal) {
+//     thirdModal.style.display = "none";
+//   }
+// }
+
 window.onclick = function(event) {
-  if (event.target == thirdModal) {
-    thirdModal.style.display = "none";
-  }
+    if (event.target == firstModal) {
+      firstModal.style.display = "none";
+    } else if (event.target == secondModal) {
+      secondModal.style.display = "none";
+    } else if (event.target == thirdModal) {
+      thirdModal.style.display = "none";
+    }
 }
