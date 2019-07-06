@@ -219,12 +219,12 @@
     </footer>
 
     <!-- The FIRST Modal -->
-    <div id="firstModal" class="modal">
+    <div id="firstModal" class="modal" role="dialog" aria-labelledby="firstModalLabel" aria-hidden="true" tabindex="-1">
 
     <!-- Modal content -->
         <div class="modal-content text-left">
             <div class="modal-header">
-                <h4>Accounting/Bookkeeping</h4>
+                <h4 id="firstModalLabel">Accounting/Bookkeeping</h4>
             </div>
             <div class="modal-body">
                 <p>We believe that the organization and management of financial information is a pivotal practice in ensuring the 
@@ -240,19 +240,19 @@
                 <p>&ast;Price will be capped at $3,000 per month</p>
             </div>
             <div class="modal-footer">
-                <span class="closeOne">Go Back</span>
+                <button type="button" data-dismiss="modal" aria-label="Close" class="modal-btn closeOne" autofocus>Go Back</button>
             </div>
         </div>
     
     </div>
 
     <!-- The SECOND Modal -->
-    <div id="secondModal" class="modal">
+    <div id="secondModal" class="modal" role="dialog" aria-labelledby="secondModalLabel" aria-hidden="true" tabindex="-1">
 
     <!-- Modal content -->
         <div class="modal-content">
             <div class="modal-header">
-                <h4>Business Intelligence Reporting</h4>
+                <h4 id="secondModalLabel">Business Intelligence Reporting</h4>
             </div>
             <div class="modal-body">
                 <p>With the rapidly changing business environment there is a greater need for timely, accurate and easily digestible information to 
@@ -263,19 +263,19 @@
                 <p>&ast;20% discount for 12 month subscription</p>
             </div>
             <div class="modal-footer">
-                <span class="closeTwo">Go Back</span>
+                <button type="button" data-dismiss="modal" aria-label="Close" class="modal-btn closeTwo" autofocus>Go Back</button>
             </div>
         </div>
     
     </div>
 
     <!-- The THIRD Modal -->
-    <div id="thirdModal" class="modal">
+    <div id="thirdModal" class="modal" role="dialog" aria-labelledby="thirdModalLabel" aria-hidden="true" tabindex="-1">
 
         <!-- Modal content -->
         <div class="modal-content">
             <div class="modal-header">
-                <h4>Business Intelligence Analytics</h4>
+                <h4 id="thirdModalLabel">Business Intelligence Analytics</h4>
             </div>
             <div class="modal-body">
                 <p><span>Prerequisite:</span> Use of Business Intelligence Reporting solution.</p>
@@ -285,7 +285,7 @@
                 <p>&ast;sign up for a 12 month subscription and get the first three months FREE!</p>
             </div>
             <div class="modal-footer">
-                <span class="closeThree">Go Back</span>
+                <button type="button" data-dismiss="modal" aria-label="Close" class="modal-btn closeThree" autofocus>Go Back</button>
             </div>
         </div>
     </div>

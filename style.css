@@ -180,6 +180,14 @@ ol.carousel-indicators {
   background-color: black;
 }
 
+.li[aria-hidden='true'] { 
+    display: none; 
+}
+
+.li[aria-hidden='false'] { 
+    display: block; 
+}
+
 /* ------- ABOUT ME --------- */
 
 .bio-img {
