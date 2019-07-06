@@ -118,16 +118,18 @@ a:hover {
 
 /* -------- CAROUSEL SECTION --------- */
 
-/* #what-we-do {
-    padding-bottom: 50px;
-} */
-
 .slideshow-carousel {
-    width: 80%;
+    width: 100%;
     margin: auto;
     border-radius: 0.25rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     /* box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.slideshow-text p {
+    font-size: 1rem;
+    padding: 0 2%;
+    text-transform: uppercase;
 }
 
 .slideshow-text {
@@ -175,10 +177,6 @@ a:hover {
 }
 
 /* ------- ABOUT ME --------- */
-/* #about-us {
-    background-color: black; ///TO DO: CHANGE BACKGROUND COLOR TO STAND OUT MORE????
-    width: 100%;
-} */
 
 .bio-img {
     width: 100%;
@@ -280,35 +278,40 @@ cursor: pointer;
     margin-bottom: 2.5rem;
 }
   
-@media screen and (min-width: 570px) {
+@media screen and (min-width: 600px) {
     .jumbotron {
         padding-top: 110px;
     }
     .navbar-brand {
         font-size: 1rem;
     }
-    /* .nav-item {
-        text-align: right;
-    } */
     .display-3 {
         font-size: 3rem;
     }
     .display-4 {
         font-size: 2rem;
     } 
+    .slideshow-text p {
+        font-size: 1rem;
+        padding: 0 1%;
+    }
+    .slideshow-carousel {
+        width: 90%;
+    }
 }
 
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 800px) {
     .jumbotron {
         padding-top: 15px;
     }
     .navbar-brand {
         font-size: 1.2rem;
     }
+    .slideshow-carousel {
+        width: 80%;
+    }
     .slideshow-text p {
         font-size: 1.2rem;
-        padding: 0 2%;
-        text-transform: uppercase;
     }
     .bio-img {
         margin: auto
