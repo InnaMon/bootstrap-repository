@@ -50,7 +50,7 @@ span {
 }
 
 .navbar-brand {
-    font-size: 0.75rem;
+    font-size: 0.6rem;
 }
 
 .nav-link {
@@ -307,10 +307,10 @@ cursor: pointer;
     left: -5000px;
 } */
 
-#mc-embedded-subscribe {
-    margin: auto;
+/* #mc-embedded-subscribe {
+    margin: auto !important;
 }
-
+ */
 
 @media screen and (min-width: 600px) {
     h4 {
