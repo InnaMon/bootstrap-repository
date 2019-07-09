@@ -301,6 +301,15 @@ cursor: pointer;
 #accounting-title {
     margin-bottom: 2.5rem;
 }
+/* -------- MAIL CHIMP ---------- */
+/* #mc_embed_signup_scroll {
+    position: absolute; 
+    left: -5000px;
+} */
+
+#mc-embedded-subscribe {
+    margin: auto;
+}
 
 
 @media screen and (min-width: 600px) {
