@@ -1,7 +1,5 @@
 body {
 width: 100%;
-/* background-image: linear-gradient(0deg, black 0%, white 100%); */
-/* background-color: #f8f9fa; */
 }
 
 html {
@@ -65,7 +63,6 @@ span {
 
 .bg-dark {
     background-color: transparent !important;
-    /* background-color: rgba(255,255,255,0.2) !important; */
     transition: 500ms ease;
 }
 
@@ -123,7 +120,6 @@ a:hover {
     margin: auto;
     border-radius: 0.25rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    /* box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .slideshow-text p {
@@ -194,7 +190,6 @@ ol.carousel-indicators {
     width: 100%;
     height: 50%;
     margin: auto;
-    /* border-radius: 3px; */
     border-radius: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border: solid 1px  #cccccc;
@@ -241,10 +236,7 @@ ol.carousel-indicators {
 
 /* The Close Button */
 .closeOne, .closeTwo, .closeThree {
-    /* color: #aaa; */
     float: right;
-    /* font-size: 28px; */
-    /* font-weight: bold; */
 }
 
 .closeOne:hover,
