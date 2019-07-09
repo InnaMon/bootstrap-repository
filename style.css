@@ -297,6 +297,13 @@ cursor: pointer;
 #accounting-title {
     margin-bottom: 2.5rem;
 }
+
+/* -------- MAIL CHIMP ---------- */
+
+mc_embed_signup { 
+    clear:left; 
+    font:14px Helvetica,Arial,sans-serif; 
+}
   
 @media screen and (min-width: 600px) {
     .jumbotron {
