@@ -23,6 +23,7 @@ h3 {
 
 h4 {
     font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.1rem;
 }
 
 p {
@@ -285,7 +286,6 @@ cursor: pointer;
 }
 
 /* -------- SERVICES SECTION ---------- */
-
 .card {
     transition: all 1s;
 }
@@ -304,6 +304,9 @@ cursor: pointer;
 
 
 @media screen and (min-width: 600px) {
+    h4 {
+        font-size: 1.2rem;
+    }
     .jumbotron {
         padding-top: 110px;
     }
@@ -323,6 +326,9 @@ cursor: pointer;
 }
 
 @media screen and (min-width: 900px) {
+    h4 {
+        font-size: 1.5rem;
+    } 
     .jumbotron {
         padding-top: 15px;
     }
