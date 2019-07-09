@@ -33,6 +33,10 @@ p {
     font-size: 2rem;
 }
 
+.display-4 {
+    font-size: 2.5rem;
+} 
+
 span {
     font-weight: bold;
 }
@@ -45,7 +49,7 @@ span {
 }
 
 .navbar-brand {
-    font-size: 1rem;
+    font-size: 0.75rem;
 }
 
 .nav-link {
@@ -298,13 +302,7 @@ cursor: pointer;
     margin-bottom: 2.5rem;
 }
 
-/* -------- MAIL CHIMP ---------- */
 
-mc_embed_signup { 
-    clear:left; 
-    font:14px Helvetica,Arial,sans-serif; 
-}
-  
 @media screen and (min-width: 600px) {
     .jumbotron {
         padding-top: 110px;
