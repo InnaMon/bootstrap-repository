@@ -1,4 +1,4 @@
-// Get nav-bar to change from transparent backgrounds upon scrolling past hero image 
+// Get nav-bar to change from transparent backgrounds upon scrolling past hero image, done with jQuery 
 
 const viewportWidth = window.innerWidth || document.documentElement.clientWidth;
 
